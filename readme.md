@@ -1,4 +1,28 @@
-# How it works:
+# Express MagicLink sign in 
+
+## Dependencies used:
+
+- cors
+- dotenv
+- express
+- jsonwebtoken
+- mongoose
+- nodemailer
+- uuid
+- validator
+
+## To start:
+
+- Clone the project
+- Run `npm i` from the project's folder
+- Create .env file with:
+
+		MONGO=
+		JWT_SECRET=
+		NODEMAILER_EMAIL=
+		NODEMAILER_PASSWORD=
+
+## How it works:
 
 1. User comes 
 2. Wants to access user's area 

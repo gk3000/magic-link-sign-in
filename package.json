@@ -1,7 +1,7 @@
 {
-  "name": "rentspace",
-  "version": "1.0.0",
-  "description": "rentspace ",
+  "name": "Magic Link sign in",
+  "version": "1.0.1",
+  "description": "Magic link sign in",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,18 +9,12 @@
   "author": "GK3000",
   "license": "ISC",
   "dependencies": {
-    "@admin-bro/express": "^3.1.0",
-    "@admin-bro/mongoose": "^1.1.0",
-    "admin-bro": "^4.0.1",
-    "argon2": "^0.28.2",
-    "bcrypt": "*",
     "cors": "*",
     "dotenv": "^10.0.0",
     "express": "*",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "*",
     "nodemailer": "^6.7.1",
-    "tslib": "^2.3.1",
     "uuid": "^8.3.2",
     "validator": "^13.7.0"
   }
