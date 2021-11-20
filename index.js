@@ -5,7 +5,6 @@ require('dotenv').config()
 app.use(require("express").urlencoded({extended: true}))
 app.use(require("express").json())
 
-console.log('index.js: ', process.env.MONGO)
 
 async function connectDB () {
 	try {
