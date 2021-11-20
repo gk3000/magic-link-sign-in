@@ -1,5 +1,4 @@
 const User = require("../models/users.js");
-// const argon2 = require("argon2"); //https://github.com/ranisalt/node-argon2/wiki/Options
 const jwt = require("jsonwebtoken");
 const validator = require("validator");
 const jwt_secret = process.env.JWT_SECRET;

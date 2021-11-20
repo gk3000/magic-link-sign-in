@@ -25,24 +25,6 @@ connectDB()
 	//==========================================================================
 	app.use('/users',require('./routes/users.js'))
 	//==========================================================================
-/*
-// ADMIN BRO
-const AdminBro = require("admin-bro");
-const AdminBroExpressjs = require("@admin-bro/express");
-// We have to tell AdminBro that we will manage mongoose resources with it
-AdminBro.registerAdapter(require("@admin-bro/mongoose"));
-// Import all the project's models
-const Users = require("./models/users.js"); 
 
-// Pass configuration settings to AdminBro
-const adminBro = new AdminBro({
-	resources: [Users],
-	rootPath: "/admin",
-});
-// Build and use a router which will handle all AdminBro routes
-const router = AdminBroExpressjs.buildRouter(adminBro);
-app.use(adminBro.options.rootPath, router);
-// END ADMIN BRO
-*/
 
 app.listen(port, () => console.log("🚀 Listening on port: " + port + " 🚀"));
